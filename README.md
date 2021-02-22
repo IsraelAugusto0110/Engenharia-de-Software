@@ -19,8 +19,11 @@ Tipos de veiculo:
 		variavel quantidade de passageiros: ate 10, 10-20, 20+: somar 10% 20% ou 30% ao total
 
 Tipos de cobrança:
+
 	hora valor
+	
 	diaria
+	
 	mensal
   
 
