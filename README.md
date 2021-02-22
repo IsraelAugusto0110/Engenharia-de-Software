@@ -13,17 +13,18 @@ Tipos de veiculo:
 	
 	Caminhão / carga - categoria B
 		variavel quantidade de eixos: 2, 4, 6... etc: cobrar por eixo
-		variavel valor da carga: ate R$10,000.00, R$10,000.00 - R$30,000.00, R$30,000.00+: cobrar uma porcentagem do valor da carga
+		variavel valor da carga: ate R$10,000.00, R$10,000.00 - R$30,000.00, R$30,000.00+: 
+		cobrar uma porcentagem do valor da carga
 		
 	Onibus / Passageiros - categoria C
 		variavel quantidade de passageiros: ate 10, 10-20, 20+: somar 10% 20% ou 30% ao total
 
 Tipos de cobrança:
-
-	hora valor
-	
-	diaria
-	
-	mensal
+	hora valor;	
+	diaria;
+	mensal;
   
+  Segue diagrama de classes com o caso mais simples, ou seja veiculo de passeio cobrado por hora onde veiculos de carga e passageiros são especializações.
+  
+  ![Diagrama uml](https://github.com/IsraelAugusto0110/Engenharia-de-software/blob/Lista1/Diagrama.png)
 
