@@ -25,5 +25,50 @@ Tipos de cobrança:
 	diaria
 	
 	mensal
-  
+ 
+ Esta é uma possivel implementação em codigo java
+ ### interface Hora
+ public interface Hora {
+	static Double valorHora = 6.00;
+	
+	public Double calculaConta();
+}
+
+### classe passeio horista
+public class PasseioHorista implements Hora{
+	
+	private Double valorhora = Hora.valorHora;
+	private int qtdHoras;
+
+	@Override
+	public Double calculaConta() {
+		int tempo = this.getQtdHoras();
+		return tempo * valorHora;
+	}
+
+	public int getQtdHoras() {
+		return qtdHoras;
+	}
+
+	public void setQtdHoras(int qtdHoras) {
+		this.qtdHoras = qtdHoras;
+	}
+	
+	
+}
+
+### teste
+public class Teste {
+
+	public static void main(String[] args) {
+		PasseioHorista horista = new PasseioHorista();
+		horista.setQtdHoras(6);
+		
+		Double conta = horista.calculaConta();
+		
+		System.out.println("Valor a pagar R$ " + conta);
+
+	}
+
+}
 
