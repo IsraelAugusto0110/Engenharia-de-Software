@@ -26,5 +26,4 @@ Tipos de cobrança:
   
   Segue diagrama de classes com o caso mais simples, ou seja veiculo de passeio cobrado por hora onde veiculos de carga e passageiros são especializações.
   
-  ![Diagrama uml](https://github.com/IsraelAugusto0110/Engenharia-de-software/blob/Lista1/Diagrama.png)
 
