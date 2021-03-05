@@ -12,18 +12,17 @@ Tipos de veiculo:
 	Carro / Passeio - categoria A ( tambem inclui motos): cobrança normal
 	
 	Caminhão / carga - categoria B
-		variavel quantidade de eixos: 2, 4, 6... etc: cobrar por eixo
+		variavel quantidade de eixos: 2, 4, 6... etc:
 		variavel valor da carga: ate R$10,000.00, R$10,000.00 - R$30,000.00, R$30,000.00+: 
-		cobrar uma porcentagem do valor da carga
 		
 	Onibus / Passageiros - categoria C
-		variavel quantidade de passageiros: ate 10, 10-20, 20+: somar 10% 20% ou 30% ao total
+		variavel quantidade de passageiros: ate 10, 10-20, 20+:
 
 Tipos de cobrança:
 	hora valor;	
 	diaria;
 	mensal;
   
-  Segue diagrama de classes com o caso mais simples, ou seja veiculo de passeio cobrado por hora onde veiculos de carga e passageiros são especializações.
+  
   
 
