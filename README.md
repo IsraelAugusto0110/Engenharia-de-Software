@@ -10,7 +10,7 @@ Utilizar principios de engenharia de software para eleborar uma solução que at
 Tipos de veiculo:
 
 	Carro / Passeio - categoria A ( tambem inclui motos): cobrança normal
-	
+
 	Caminhão / carga - categoria B
 		variavel quantidade de eixos: 2, 4, 6... etc:
 		variavel valor da carga: ate R$10,000.00, R$10,000.00 - R$30,000.00, R$30,000.00+: 
@@ -25,4 +25,5 @@ Tipos de cobrança:
   
   
   
-
+### Diagrama de classes
+![Diagrama uml](https://github.com/IsraelAugusto0110/Engenharia-de-software/blob/Lista1/ClassDiagram.png)
