@@ -22,4 +22,5 @@ Tipos de cobrança:
 	mensal
  
 ## Solução:
-Sera criado um aplicativo mobile utilizando java.
+Criar aplicação java conforme diagrama de classes a seguir:
+![Diagrama uml](https://github.com/IsraelAugusto0110/Engenharia-de-software/blob/Lista1/ClassDiagram.png)
